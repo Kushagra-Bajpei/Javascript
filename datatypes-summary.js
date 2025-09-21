@@ -31,4 +31,7 @@ const myFunction = function () {
   console.log("Hello World");
 }
 
-console.log(typeof anotherId); 
+console.log(typeof bigNumber);     // undefined 
+console.log(typeof outsideTemp);   // object
+console.log(typeof scoreValue);    // number
+console.log(typeof anotherId);   // symbol
