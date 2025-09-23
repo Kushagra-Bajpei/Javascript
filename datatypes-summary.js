@@ -35,3 +35,27 @@ console.log(typeof bigNumber);     // undefined
 console.log(typeof outsideTemp);   // object
 console.log(typeof scoreValue);    // number
 console.log(typeof anotherId);   // symbol
+
+
+
+// Something to remember
+
+let myYoutubename = "Ravi Sharma";
+
+let anothername = myYoutubename;
+anothername = "Code aur code";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@upi",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com";
+console.log(userOne.email);
+console.log(userTwo.email);
