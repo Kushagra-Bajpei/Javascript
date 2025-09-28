@@ -8,12 +8,19 @@ let valueInNumber = Number(score);
 // console.log(valueInNumber);             // NaN
 
 
+
+
+// Some other examples In case of number conversion
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0
 // null => 0
 // undefined => NaN
 // "abc" => NaN
+
+
+
+
 
 let isLoggedIn = 1;
 
@@ -39,6 +46,9 @@ let stringNumber = String(someNumber);
 // console.log(typeof stringNumber);
 
 
+
+
+
 // **********************************  Operations  **********************************
 
 let value = 3;
@@ -61,7 +71,7 @@ let str3 = str1 + str2;
 // console.log("1" + 2);  // "12"
 // console.log(1 + "2");  // "12"
 // console.log("1" + 2 + 2);  // "122"
-// console.log(1 + 2 + "2");  // "32"  => line 63 and 64 is not correct way
+// console.log(1 + 2 + "2");  // "32"  => line 73 and 74 is not correct way
 
 // console.log( (3 + 2) * 2 % 3 );
 
