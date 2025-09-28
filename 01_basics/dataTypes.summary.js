@@ -14,7 +14,8 @@ const anotherId = Symbol("123");
 
 console.log(id === anotherId); 
 
-// const bigNumber = 1234567890123456789012345678901234567890n;
+// const bigNumber = 1234567890123456789012345678901234567890n;  // This type of large no. we will store in bigint and you can add n at last so automatically it will convert to bigint
+
 
 
 // Reference (Non Primitive)
@@ -36,7 +37,9 @@ console.log(typeof outsideTemp);   // object
 console.log(typeof scoreValue);    // number
 console.log(typeof anotherId);   // symbol
 
-
+// Note => In JS if we check data type of myFunction it will show as function but function is we called an object function
+//  in JS, all non primitive data types are objects so in last i want to say that in JS everything data type is object except primitive data types
+// only function return we will call object function
 
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
