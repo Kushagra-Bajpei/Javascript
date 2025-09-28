@@ -1,11 +1,11 @@
 let score = "33abc";
 
-// console.log(typeof score);
-// console.log(typeof(score));  
+// console.log(typeof score);    // string
+// console.log(typeof(score));   // string
 
 let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+// console.log(typeof valueInNumber);       // number
+// console.log(valueInNumber);             // NaN
 
 
 // "33" => 33
@@ -21,7 +21,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn);
 // console.log(typeof booleanIsLoggedIn);
 
-
+// In case of boolean conversion, following values are considered as false or true
 // 0 => false; 1 => true
 // "" => false; 
 // "abc" => true
