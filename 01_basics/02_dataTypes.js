@@ -12,10 +12,11 @@ console.log("Kushagra");
 let name = "Kushagra";
 let age = 21;
 let isLoggedIn = false;
+let state;
 
 
 // number => 2 to the power of 53
-// bigint => larger data type to store big numbers specially for traing, stock market
+// bigint => larger data type to store big numbers specially for trading, stock market
 // string => ""
 // boolean => true/false
 // null => standalone value
@@ -26,4 +27,4 @@ let isLoggedIn = false;
 // object 
 
 console.log(typeof undefined);  // undefined
-console.log(typeof null);
+console.log(typeof null);     // object
