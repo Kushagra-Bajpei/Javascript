@@ -42,7 +42,11 @@ console.log(typeof anotherId);   // symbol
 // only function return we will call object function
 
 
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+// ++++++++++++++++++++++++++++++++ Stack and Heap memory concept ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack (Primitive), Heap (Non Primitive)
 // Something to remember
@@ -55,6 +59,17 @@ anothername = "Code aur code";
 console.log(myYoutubename);
 console.log(anothername);
 
+// Note => In primitive data types, actual value is stored in stack memory and when we copy that value 
+// to another variable then a new copy is created in stack memory and if we change the value of another variable
+// then it will not affect the original variable value because both variables have their own copy in stack memory , so copy 
+// will change.
+
+
+
+// Note => In non primitive data types, actual value is stored in heap memory and in stack memory a reference is stored
+// when we copy that value to another variable then a new reference is created in stack memory which point to same 
+// location in heap memory and if we change the value of another variable then it will affect the original variable value 
+// because both variables are pointing to same location in heap memory , so copy will change
 
 let userOne = {
   email: "user@google.com",
@@ -67,4 +82,8 @@ userTwo.email = "hitesh@google.com";
 console.log(userOne.email);
 console.log(userTwo.email);
 
+
+
+// stack ke andar jab bhi koi check lenge then uska copy milega
+// heap ke andar jab bhi koi check lenge then uska reference milega, we will do changes and updation in original value always
 
