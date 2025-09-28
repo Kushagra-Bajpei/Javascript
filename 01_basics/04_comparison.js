@@ -10,6 +10,8 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 // in 8 9 10 it will give false value
 
+
+
 // ===  => Triple equals => checks value and data type both
 // ==   => Double equals => checks value only
 
