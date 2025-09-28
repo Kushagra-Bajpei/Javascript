@@ -3,7 +3,7 @@
 
 console.log(null > 0);
 console.log(null == 0);      // Note => lines 4 5 6 8 9 10 we will avoid these type of conversion
-console.log(null >= 0);
+console.log(null >= 0);      // In this line null is converted to 0 
 
 console.log(undefined == 0);
 console.log(undefined > 0);
