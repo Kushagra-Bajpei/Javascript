@@ -24,7 +24,10 @@ let state;
 // symbol => unique
 
 
-// object 
+console.log(typeof "kushagra");
+console.log(typeof age);
 
+
+// object 
 console.log(typeof undefined);  // undefined
 console.log(typeof null);     // object
